@@ -25,7 +25,7 @@ let getPokemonData = async ()=>
     pokemonName.innerText = name;
     pokemonFrontImg.src = frontImg;
     pokemonNumber.innerText = `Numero en la pokedex: ${pokemon.id}`;
-    pokemonHeight.innerText = `La altura es: ${height}`;
+    pokemonHeight.innerText = `La altura es de: ${height}`;
     pokemonWeight.innerText = `El peso es de: ${pokemon.weight}`;
     
 };
